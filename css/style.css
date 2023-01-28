@@ -368,9 +368,13 @@ section{
   grid-template-columns:repeat(auto-fit, minmax(30rem,0.25fr));
   justify-content: space-between;
 }
-.product .box-container .box #first{
-  background-color: #783b31;
+
+#btn1:hover
+{
+  background: rgb(255,76,11);
+background: linear-gradient(0deg, rgba(255,76,11,1) 0%, rgba(241,253,45,1) 86%);
 }
+
 
 .product .box-container .box .image{
   height: 35rem;
