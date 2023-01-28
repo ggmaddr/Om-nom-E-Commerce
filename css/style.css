@@ -371,11 +371,11 @@ section{
   text-align: center;
 }
 
-.product #first
+/* .product #first
 {
   grid-template-columns:repeat(auto-fit, minmax(30rem,0.35fr));
   justify-content: space-around;
-}
+} */
 .product .box-container .box .image{
   height: 35rem;
   width: 100%;
