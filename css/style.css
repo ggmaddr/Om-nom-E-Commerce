@@ -354,7 +354,6 @@ section{
 
 }
 
-
 .product .box-container .box{
   background: var(--white);
   border-radius: .5rem;
@@ -362,13 +361,15 @@ section{
   position: relative;
   overflow: hidden;
   text-align: center;
-
 }
 
 .product #first
 {
   grid-template-columns:repeat(auto-fit, minmax(30rem,0.25fr));
   justify-content: space-between;
+}
+.product .box-container .box #first{
+  background-color: #783b31;
 }
 
 .product .box-container .box .image{
