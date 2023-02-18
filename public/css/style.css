@@ -237,64 +237,58 @@ section{
   justify-content: center;
   position: relative;
 }
+
+.sslide{
+  height: fit-content;
+  background-size: 100% !important;
+  background-position: center !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.simg{
+  width: 100%;
+  height: auto;
+}
 .home .slide img{
   width: 100%;
   height: auto;
 }
 .home .slide::before{
-  content: '';
   position: absolute;
   top: 0; left: 0;
   height: 100%; width: 100%;
   /* background: rgba(0, 0, 0, 0.7); */
   z-index: -1;
 }
-
-/* .home .slide .content{
-  top:200px;
-  left: 200px;
-  display: inline-block;
-} */
-/* .home .slide .content h3{
-  font-size: 6rem;
-  text-transform: uppercase;
-  color: var(--white);
-  line-height: 1.2;
-  padding: 2rem 0;
-  animation: fadeIn 0.4s cubic-bezier(.54, 1.3,.63,1.34) .2s backwards;
-} */
-
-.home .slide .btn{
+.sbtn{
   animation: fadeIn 0.4s cubic-bezier(.54, 1.3,.63,1.34) .4s backwards;
   right: 200px;
   bottom: 120px;
   position: fixed;
 }
 
-.home .swiper-slide-active .content{
-  display: inline-block;
-}
-
 
 .swiper-button-next,
 .swiper-button-prev{
-  height: 4rem;
-  width: 4rem;
-  line-height: 4rem;
-  margin-left: 1.5rem;
+  height: 4rem !important;
+  width: 4rem !important;
+  line-height: 4rem !important;
+  margin-left: 1rem !important;
+  color: darkred !important;
   background: var(--white);
-  color: var(--black);
 }
 
 .swiper-button-next:hover,
 .swiper-button-prev:hover{
-  background: var(--primary-color);
-  color: var(--white);
+  background: var(--primary-color) !important;
+  color: var(--white) !important;
 }
 
 .swiper-button-next::after,
 .swiper-button-prev::after{
-  font-size: 1.5rem;
+  font-size: 2.5rem !important;
 }
 
 /* end */
@@ -842,11 +836,9 @@ section{
   section{
     padding: 2rem;
   }
-  .home .slide .btn{
+  .sbtn{
     right: 15rem;
     bottom: 10rem;
-
-
   }
 
 }
@@ -877,20 +869,11 @@ section{
     display: block;
     margin: 2rem;
   }
-  .home .slide .btn{
+  .sbtn{
     right: 12rem;
     bottom: 6rem;
     position: fixed;
   }
-
-  /* .home .slide .content{
-    width: 40rem;
-  }
-
-  .home .slide .content h3{
-    font-size: 4rem;
-  } */
-  
 
 }
 
@@ -900,13 +883,11 @@ section{
     font-size: 50%;
   }
 
-  .home .slide .content h3{
-    font-size: 3rem;
-  }
+  
   .home .slide img{
     padding-top: 3em;}
     
-  .home .slide .btn{
+  .sbtn{
     right: 55px;
     bottom: 40px;
     position: fixed;
