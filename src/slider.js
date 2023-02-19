@@ -17,11 +17,11 @@ export const Slider = () => {
             >
               <SwiperSlide>
                     <img className="simg" src="images/banner1.png" alt=""/>
-                    <a href="https://www.a.com/" className="sbtn btn"> Let's judge! </a>
+                    <a href="#order" className="sbtn btn"> Let's judge! </a>
               </SwiperSlide>
               <SwiperSlide>
                     <img className="simg" src="images/banner2.png" alt=""/>
-                    <a href="https://www.a.com/" className="sbtn btn"> Let's judge! </a>
+                    <a href="#order" className="sbtn btn"> Let's judge! </a>
               </SwiperSlide>
             </Swiper>
      
