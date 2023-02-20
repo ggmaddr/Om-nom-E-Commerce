@@ -1,9 +1,7 @@
 import { Slider } from './home/slider';
 import 'swiper/swiper-bundle.css';
 import { click} from './home/script.js';
-
-//fix font, carts -> go to yelpcamp
-
+import {AllProducts} from './product/allProducts.js';
 function App() {
     return (
     
@@ -137,8 +135,9 @@ function App() {
 
     </section>
 
+    <AllProducts/>
    
-    <section className="product" id="product">
+    {/* <section className="product" id="product">
 
         <h1 className="heading">our <span> products</span></h1>
 
@@ -305,7 +304,7 @@ function App() {
 
         </div>
 
-    </section>
+    </section> */}
 
     <section className="promotion">
 

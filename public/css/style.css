@@ -404,7 +404,7 @@ section{
   padding: 1rem 0;
 }
 
-.product .box-container .box .content .stars i{
+.product .box-container .box .content .stars .icon{
   font-size: 1.7rem;
   color: var(--secondary);
 }

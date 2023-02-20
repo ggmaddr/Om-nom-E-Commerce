@@ -1,12 +1,14 @@
-import product1 from "images/product1.png";
-import product2 from "images/product2.png";
-import product3 from "images/product3.png";
-import product4 from "images/product4.png";
-import product5 from "images/product5.png";
-import product6 from "images/product6.png";
-import product7 from "images/product7.png";
-import product8 from "images/product8.png";
-import product9 from "images/product9.png";
+import product1 from "../assets/product1.png";
+import product2 from "../assets/product2.png";
+import product3 from "../assets/product3.png";
+import product4 from "../assets/product4.png";
+import product5 from "../assets/product5.png";
+import product6 from "../assets/product6.png";
+import product7 from "../assets/product7.png";
+import product8 from "../assets/product8.png";
+import product9 from "../assets/product9.png";
+import product10 from "../assets/product10.png";
+
 
 
 export const PRODUCTS = [
@@ -15,7 +17,7 @@ export const PRODUCTS = [
     productName: "Signature Box",
     price: "$.$",
     productImage: product1,
-    action: "Buid your box",
+    action: "Build your box",
     reviewStars: [5,0],
   },
   {
@@ -23,7 +25,7 @@ export const PRODUCTS = [
     productName: "Set Pudding",
     price: "$16",
     productImage: product2,
-    action: "Buid your set",
+    action: "Build your set",
     reviewStars: [4,1],
   },
   {
@@ -32,7 +34,7 @@ export const PRODUCTS = [
     price: "$5",
     productImage: product3,
     action: "add to cart",
-    reviewStars: [4,1],
+    reviewStars: [4,0],
   },
   {
     id: 4,
@@ -76,11 +78,19 @@ export const PRODUCTS = [
   },
   {
     id: 9,
-    productName: "Matcha superlayer crepe",
+    productName: "Matcha mille crepe",
     price: "$10",
     productImage: product9,
     action: "add to cart",
     reviewStars: [5,0],
+  },
+  {
+    id: 9,
+    productName: "Classic Tiramisu",
+    price: "$12",
+    productImage: product10,
+    action: "add to cart",
+    reviewStars: [4,1],
   },
   
 ];
