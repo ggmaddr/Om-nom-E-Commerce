@@ -136,175 +136,6 @@ function App() {
     </section>
 
     <AllProducts/>
-   
-    {/* <section className="product" id="product">
-
-        <h1 className="heading">our <span> products</span></h1>
-
-        <div className="box-container" id = "first">
-            <div className="box" >
-                <div className="image">
-                    <img src="images/product1.png" alt=""/>
-                </div>
-                <div className="content">
-                    <h3>Signature box</h3>
-                    <div className="stars">
-                        <i className="fas fa-star"></i>
-                        <i className="fas fa-star"></i>
-                        <i className="fas fa-star"></i>
-                        <i className="fas fa-star"></i>
-                        <i className="fas fa-star"></i>
-                    </div>
-                    <span className="price">$.$</span>
-                    <a href="https://www.a.com/" className="btn">Buid your box</a>
-                </div>
-            </div>
-            <div className="box" >
-                <div className="image">
-                    <img src="images/product2.png" alt=""/>
-                </div>
-                <div className="content">
-                    <h3>Set pudding</h3>
-                    <div className="stars">
-                        <i className="fas fa-star"></i>
-                        <i className="fas fa-star"></i>
-                        <i className="fas fa-star"></i>
-                        <i className="fas fa-star"></i>
-                        <i className="fas fa-star"></i>
-                    </div>
-                    <span className="price">$16</span>
-                    <a href="https://www.a.com/" className="btn">Build your set</a>
-                </div>
-            </div>
-
-            <div className="box">
-                <div className="image">
-                    <img src="images/product3.png" alt=""/>
-                </div>
-                <div className="content">
-                    <h3>Hoang Kim 2pcs</h3>
-                    <div className="stars">
-                        <i className="fas fa-star"></i>
-                        <i className="fas fa-star"></i>
-                        <i className="fas fa-star"></i>
-                        <i className="fas fa-star"></i>
-                        <i className="fas fa-star-half-alt"></i>
-                    </div>
-                    <span className="price">$5</span>
-                    <a href="https://www.a.com/" className="btn">add to cart</a>
-                </div>
-            </div>
-
-            <div className="box">
-                <div className="image">
-                    <img src="images/product4.png" alt=""/>
-                </div>
-                <div className="content">
-                    <h3>Kem Tuyet 2pcs</h3>
-                    <div className="stars">
-                        <i className="fas fa-star"></i>
-                        <i className="fas fa-star"></i>
-                        <i className="fas fa-star"></i>
-                        <i className="fas fa-star"></i>
-                        <i className="fas fa-star"></i>
-                    </div>
-                    <span className="price">$6</span>
-                    <a href="https://www.a.com/" className="btn">add to cart</a>
-                </div>
-            </div>
-
-            <div className="box">
-                <div className="image">
-                    <img src="images/product5.png" alt=""/>
-                </div>
-                <div className="content">
-                    <h3>Durian 2pcs</h3>
-                    <div className="stars">
-                        <i className="fas fa-star"></i>
-                        <i className="fas fa-star"></i>
-                        <i className="fas fa-star"></i>
-                        <i className="fas fa-star"></i>
-                        <i className="fas fa-star-half-alt"></i>
-                    </div>
-                    <span className="price">$7</span>
-                    <a href="https://www.a.com/" className="btn">add to cart</a>
-                </div>
-            </div>
-
-            <div className="box">
-                <div className="image">
-                    <img src="images/product6.png" alt=""/>
-                </div>
-                <div className="content">
-                    <h3>Coconut Coffee Pudding</h3>
-                    <div className="stars">
-                        <i className="fas fa-star"></i>
-                        <i className="fas fa-star"></i>
-                        <i className="fas fa-star"></i>
-                        <i className="fas fa-star"></i>
-                        <i className="fas fa-star"></i>
-                    </div>
-                    <span className="price">$3</span>
-                    <a href="https://www.a.com/" className="btn">add to cart</a>
-                </div>
-            </div>
-            <div className="box">
-                <div className="image">
-                    <img src="images/product7.png" alt=""/>
-                </div>
-                <div className="content">
-                    <h3>Custard Pudding</h3>
-                    <div className="stars">
-                        <i className="fas fa-star"></i>
-                        <i className="fas fa-star"></i>
-                        <i className="fas fa-star"></i>
-                        <i className="fas fa-star"></i>
-                        <i className="fas fa-star"></i>
-                    </div>
-                    <span className="price">$3</span>
-                    <a href="https://www.a.com/" className="btn">add to cart</a>
-                </div>
-            </div>
-            <div className="box">
-                <div className="image">
-                    <img src="images/product8.png" alt=""/>
-                </div>
-                <div className="content">
-                    <h3>Durian crepe</h3>
-                    <div className="stars">
-                        <i className="fas fa-star"></i>
-                        <i className="fas fa-star"></i>
-                        <i className="fas fa-star"></i>
-                        <i className="fas fa-star"></i>
-                        <i className="fas fa-star"></i>
-                    </div>
-                    <span className="price">$4</span>
-                    <a href="https://www.a.com/" className="btn">add to cart</a>
-                </div>
-            </div>
-            <div className="box">
-                <div className="image">
-                    <img src="images/product9.png" alt=""/>
-                </div>
-                <div className="content">
-                    <h3>Matcha superlayer crepe</h3>
-                    <div className="stars">
-                        <i className="fas fa-star"></i>
-                        <i className="fas fa-star"></i>
-                        <i className="fas fa-star"></i>
-                        <i className="fas fa-star"></i>
-                        <i className="fas fa-star"></i>
-                    </div>
-                    <span className="price">$10
-                        
-                    </span>
-                    <a href="https://www.a.com/" className="btn">add to cart</a>
-                </div>
-            </div>
-
-        </div>
-
-    </section> */}
 
     <section className="promotion">
 
@@ -362,7 +193,7 @@ function App() {
                 </div>
                 <div className="content">
                     <h3>Beo Ngo</h3>
-                    <p>Nhan zien 1</p>
+                    <p>Product manager</p>
                     <div className="share">
                         <i className="fab fa-facebook-f"></i>
                         <i className="fab fa-twitter"></i>
@@ -377,7 +208,7 @@ function App() {
                 </div>
                 <div className="content">
                     <h3>Gieo Ta</h3>
-                    <p>Nhan zien 2</p>
+                    <p>Finance director </p>
                     <div className="share">
                         <i className="fab fa-facebook-f"></i>
                         <i className="fab fa-twitter"></i>
@@ -398,7 +229,7 @@ function App() {
 
             <div className="box">
                 <img src="images/review-1.png" className="user" alt=""/>
-                <h3>Tram Ngoc Le</h3>
+                <h3>Hardin Robert</h3>
                 <div className="stars">
                     <i className="fas fa-star"></i>
                     <i className="fas fa-star"></i>
@@ -406,12 +237,12 @@ function App() {
                     <i className="fas fa-star"></i>
                     <i className="fas fa-star-half-alt"></i>
                 </div>
-                <p>Bánh ngon quá em hihi. Chị sẽ mua tiếp cho cả họ chị ăn lun nha</p>
+                <p>Great customer service and great product! The new product lines are exciting</p>
             </div>
 
             <div className="box">
                 <img src="images/review-2.png" className="user" alt=""/>
-                <h3>Trang Lubutin</h3>
+                <h3>Jessica T.</h3>
                 <div className="stars">
                     <i className="fas fa-star"></i>
                     <i className="fas fa-star"></i>
@@ -419,12 +250,12 @@ function App() {
                     <i className="fas fa-star"></i>
                     <i className="fas fa-star-half-alt"></i>
                 </div>
-                <p>Bánh ngon zậy mà giờ mình mới được biết tới. Sẽ ủng hộ thêm!</p>
+                <p>The tiramisu cake with creamy layers of mascarpone cheese and coffee-soaked ladyfingers were perfectly balanced and not too sweet"</p>
             </div>
 
             <div className="box">
                 <img src="images/review-3.png" className="user" alt=""/>
-                <h3>Thai Smile</h3>
+                <h3>Addy Plutan </h3>
                 <div className="stars">
                     <i className="fas fa-star"></i>
                     <i className="fas fa-star"></i>
@@ -432,7 +263,7 @@ function App() {
                     <i className="fas fa-star"></i>
                     <i className="fas fa-star-half-alt"></i>
                 </div>
-                <p>Ngày nào cũng phải làm một hộp mới đã thèm. Good jobs, amazing guys!</p>
+                <p>The cheese lava bread's filling was a pleasant surprise! It's a delicious twist on classic bread that will satisfy any cheese lover's cravings</p>
             </div>
 
         </div>
