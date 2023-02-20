@@ -1,6 +1,6 @@
-import { Slider } from './slider';
+import { Slider } from './home/slider';
 import 'swiper/swiper-bundle.css';
-import { click} from './script.js';
+import { click} from './home/script.js';
 
 //fix font, carts -> go to yelpcamp
 
