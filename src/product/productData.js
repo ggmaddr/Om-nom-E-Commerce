@@ -8,8 +8,9 @@ import product7 from "../assets/product7.png";
 import product8 from "../assets/product8.png";
 import product9 from "../assets/product9.png";
 import product10 from "../assets/product10.png";
-
-
+export const GALLERY =[
+  {image: ""}
+]
 
 export const PRODUCTS = [
   {
