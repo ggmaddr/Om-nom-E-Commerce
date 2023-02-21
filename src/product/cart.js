@@ -23,7 +23,7 @@ export const Cart = () => {
                 <div className="content">
                 <h3>{product.productName}</h3>
                 <h4> ${product.price * cartItems[product.id]}</h4>
-                  <div>
+                <div class="cartInput">
                     <button onClick={() => removeFromCart(product.id)}>-</button>
                     <input className="price"
                       value={cartItems[product.id]}

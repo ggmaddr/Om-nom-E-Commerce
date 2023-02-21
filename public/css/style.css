@@ -194,6 +194,7 @@ section{
   display: flex;
   align-items: center;
   gap: 1.5rem;
+  text-align: left;
 }
 
 .cart-items-container .cart-item img{
@@ -222,6 +223,9 @@ section{
   padding: 0.2rem;
   bottom: 0.2rem;
 }
+.cart-items-container .cart-item .content .cartInput{
+  padding-right: 10rem;
+}
 .cart-items-container .cart-item .content button{
   width: 3rem;
   height: 3rem;
@@ -235,6 +239,7 @@ section{
   background-color: #a90707;
   color:#fff4f2;
 }
+
 
 
 /* end */
