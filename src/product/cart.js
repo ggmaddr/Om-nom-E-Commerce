@@ -18,7 +18,6 @@ export const Cart = () => {
           if (cartItems[product.id] !== 0) {
             return (
               <div className="cart-item">
-                {/* <FontAwesomeIcon id="close-form" style={{fontSize: "2.5rem"}} icon={faTimes} onDoubleClick={cartItems[product.id] == 0} /> */}
                 <span className="fas fa-times" onClick={()=>removeComplete(product.id)}></span>
                 <img src={product.productImage} />
                 <div className="content">
