@@ -736,7 +736,7 @@ section{
 
 .order .row form{
   flex: 1 1 50rem;
-  padding: 5rem;
+  padding: 3rem;
 }
 
 .order .row form .inputBox{

@@ -1,7 +1,7 @@
 import { Slider } from './home/slider';
 import 'swiper/swiper-bundle.css';
 import { click} from './home/script.js';
-import {AllProducts} from './product/allProducts.js';
+import {AllProducts, Gallery} from './product/allProducts.js';
 import { ShopContextProvider } from './product/CartContext';
 import { Cart } from './product/cart.js';
 function App() {
@@ -280,42 +280,7 @@ function App() {
 
     </section>
 
- <section className="gallery" id="gallery">
-
-    <h1 className="heading">rising star <span> gallery</span></h1>
-
-    <div className="gallery-container">
-
-        <a href="images/gallerypud2.png" className="box">
-            <img src="images/gallerypud2.png" alt=""/>
-            <div className="icons"><i className="fas fa-plus"></i></div>
-        </a>
-
-        <a href="images/gallerypud3.jpeg" className="box">
-            <img src="images/gallerypud3.jpeg" alt=""/>
-            <div className="icons"><i className="fas fa-plus"></i></div>
-        </a>
-
-        <a href="images/gallerypud4.jpeg" className="box">
-            <img src="images/gallerypud4.jpeg" alt=""/>
-            <div className="icons"><i className="fas fa-plus"></i></div>
-        </a>
-
-        <a href="images/gallerypud5.png" className="box">
-            <img src="images/gallerypud5.png" alt=""/>
-            <div className="icons"><i className="fas fa-plus"></i></div>
-        </a>
-
-        <a href="images/gallerypud6.png" className="box">
-            <img src="images/gallerypud6.png" alt=""/>
-            <div className="icons"><i className="fas fa-plus"></i></div>
-        </a>
-
-
-    </div>
-
-</section>
-
+    <Gallery/>
 
     <section className="order" id="order">
 

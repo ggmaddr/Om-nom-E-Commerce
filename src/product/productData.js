@@ -8,12 +8,12 @@ import product7 from "../assets/product7.png";
 import product8 from "../assets/product8.png";
 import product9 from "../assets/product9.png";
 import product10 from "../assets/product10.png";
-import gal1 from "../assets/gal1";
-import gal2 from "../assets/gallerypud2";
-import gal3 from "../assets/gal3";
-import gal4 from "../assets/gallerypud4";
-import gal5 from "../assets/gallerypud5";
-import gal6 from "../assets/gallerypud6";
+import gal1 from "../assets/gal1.png";
+import gal2 from "../assets/gallerypud2.png";
+import gal3 from "../assets/gal3.png";
+import gal4 from "../assets/gallerypud4.jpeg";
+import gal5 from "../assets/gallerypud5.png";
+import gal6 from "../assets/gallerypud6.png";
 
 
 export const GALLERY =[
