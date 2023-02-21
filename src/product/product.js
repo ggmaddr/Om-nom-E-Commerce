@@ -1,8 +1,12 @@
-import ReactDOM from 'react-dom'
+import React, { useContext } from "react";
+import { ShopContext } from "./CartContext";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faStar, faCircleHalfStroke, faStarHalfStroke } from '@fortawesome/free-solid-svg-icons'
+import { faStar, faStarHalfStroke } from '@fortawesome/free-solid-svg-icons'
+
 export const Product =(props)=>{
     const {id, productName, price, productImage, action, reviewStars} = props.data;
+    const {addToCart, cartItems} = useContext(ShopContext);
+    const cartItemCount = cartItems[id];
     
     // loop function to write stars
     const writeStar = ()=>{
@@ -29,8 +33,9 @@ export const Product =(props)=>{
                     <div className="stars">
                        {writeStar()}
                     </div>
-                    <span className="price">{price}</span>
-                    <button className="btn">{action}</button>
+                    <span className="price">${price}</span>
+                    <button onClick={() => addToCart(id)} className="btn">{action} {cartItemCount > 0 && <> ({cartItemCount})</>}
+                    </button>
                 </div>
             </div>
     )

@@ -15,7 +15,7 @@ export const PRODUCTS = [
   {
     id: 1,
     productName: "Signature Box",
-    price: "$.$",
+    price: 25,
     productImage: product1,
     action: "Build your box",
     reviewStars: [5,0],
@@ -23,7 +23,7 @@ export const PRODUCTS = [
   {
     id: 2,
     productName: "Set Pudding",
-    price: "$16",
+    price: 16,
     productImage: product2,
     action: "Build your set",
     reviewStars: [4,1],
@@ -31,7 +31,7 @@ export const PRODUCTS = [
   {
     id: 3,
     productName: "Hoang Kim 2pcs",
-    price: "$5",
+    price: 5,
     productImage: product3,
     action: "add to cart",
     reviewStars: [4,0],
@@ -39,7 +39,7 @@ export const PRODUCTS = [
   {
     id: 4,
     productName: "Kem Tuyet 2pcs",
-    price: "$6",
+    price: 6,
     productImage: product4,
     action: "add to cart",
     reviewStars: [5,0],
@@ -47,7 +47,7 @@ export const PRODUCTS = [
   {
     id: 5,
     productName: "Durian 2pcs",
-    price: "$7",
+    price: 7,
     productImage: product5,
     action: "add to cart",
     reviewStars: [5,0],
@@ -55,7 +55,7 @@ export const PRODUCTS = [
   {
     id: 6,
     productName: "Coconut Coffee Pudding",
-    price: "$3",
+    price: 3,
     productImage: product6,
     action: "add to cart",
     reviewStars: [5,0],
@@ -63,7 +63,7 @@ export const PRODUCTS = [
   {
     id: 7,
     productName: "Custard Pudding",
-    price: "$3",
+    price: 3,
     productImage: product7,
     action: "add to cart",
     reviewStars: [4,1],
@@ -71,7 +71,7 @@ export const PRODUCTS = [
   {
     id: 8,
     productName: "Durian crepe",
-    price: "$4",
+    price: 4,
     productImage: product8,
     action: "add to cart",
     reviewStars: [5,0],
@@ -79,7 +79,7 @@ export const PRODUCTS = [
   {
     id: 9,
     productName: "Matcha mille crepe",
-    price: "$10",
+    price: 10,
     productImage: product9,
     action: "add to cart",
     reviewStars: [5,0],
@@ -87,7 +87,7 @@ export const PRODUCTS = [
   {
     id: 9,
     productName: "Classic Tiramisu",
-    price: "$12",
+    price: 12,
     productImage: product10,
     action: "add to cart",
     reviewStars: [4,1],

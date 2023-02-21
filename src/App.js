@@ -2,9 +2,10 @@ import { Slider } from './home/slider';
 import 'swiper/swiper-bundle.css';
 import { click} from './home/script.js';
 import {AllProducts} from './product/allProducts.js';
+import { ShopContextProvider } from './product/CartContext';
+import { Cart } from './product/cart.js';
 function App() {
     return (
-    
     <div className="App">
 
     <header className="header">
@@ -31,7 +32,9 @@ function App() {
 
     </header>
 
-    <div className="cart-items-container">
+    <ShopContextProvider>  
+        
+    {/* <div className="cart-items-container">
 
         <div id="close-form" className="fas fa-times" onClick={click}></div>
         <h3 className="title">Your Cart</h3>
@@ -41,12 +44,9 @@ function App() {
             <img src="images/product7.png" alt=""/>
             <div className="content">
                 <h3>Custard Pudding</h3>
-                <>
-                    <button>+</button>
-                    <input className="price" type="text" />
-                    <button>-</button>
-                </>
-                
+                <button>-</button>
+                <input className="price" type="text" />
+                <button>+</button>
             </div>
         </div>
 
@@ -70,7 +70,12 @@ function App() {
 
         <a href="https://www.a.com/" className="btn"> checkout </a>
 
-    </div>
+    </div> */}
+    
+    <Cart />
+
+
+    
 
     <div id="home">
         <Slider/>
@@ -140,6 +145,7 @@ function App() {
     </section>
 
     <AllProducts/>
+    </ShopContextProvider>
 
     <section className="promotion">
 

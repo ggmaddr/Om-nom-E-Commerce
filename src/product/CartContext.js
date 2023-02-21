@@ -1,8 +1,8 @@
-import { createContext, useEffect, useState } from "react";
+import { createContext, useState } from "react";
 import {PRODUCTS} from "./productData.js";
 
 export const ShopContext = createContext(null);
-
+//set default {#1: 0; #2: 0; ... #n: 0}
 const getDefaultCart = () => {
   let cart = {};
   for (let i = 1; i < PRODUCTS.length + 1; i++) {
@@ -17,9 +17,11 @@ export const ShopContextProvider = (props) => {
   const getTotalCartAmount = () => {
     let totalAmount = 0;
     for (const item in cartItems) {
+      //check if cartItems[item](number of #item in cart) greater than 0
       if (cartItems[item] > 0) {
         let itemInfo = PRODUCTS.find((product) => product.id === Number(item));
         totalAmount += cartItems[item] * itemInfo.price;
+        console.log("My total is: " + totalAmount);
       }
     }
     return totalAmount;
@@ -32,6 +34,9 @@ export const ShopContextProvider = (props) => {
   const removeFromCart = (itemId) => {
     setCartItems((prev) => ({ ...prev, [itemId]: prev[itemId] - 1 }));
   };
+  const removeComplete = (itemId) =>{
+    setCartItems((prev) => ({ ...prev, [itemId]: 0 }));
+  }
 
   const updateCartItemCount = (newAmount, itemId) => {
     setCartItems((prev) => ({ ...prev, [itemId]: newAmount }));
@@ -48,6 +53,7 @@ export const ShopContextProvider = (props) => {
     removeFromCart,
     getTotalCartAmount,
     checkout,
+    removeComplete,
   };
 
   return (

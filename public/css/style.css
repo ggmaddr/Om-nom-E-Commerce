@@ -149,8 +149,19 @@ section{
   padding: 2rem;
   text-align: center;
   padding-top: 6em;
+  overflow-y:scroll;
+}
+.cart-items-container .cart-item .fa-times{
+  position: absolute;
+  top: 1rem; right: 1rem;
+  font-size: 2rem;
+  color: var(--black);
+  cursor: pointer;
 }
 
+.cart-items-container .cart-item .fa-times:hover{
+  color: var(--primary-color);
+}
 .cart-items-container.active{
   right: 0;
   box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.8);
@@ -185,20 +196,8 @@ section{
   gap: 1.5rem;
 }
 
-.cart-items-container .cart-item .fa-times{
-  position: absolute;
-  top: 1rem; right: 1rem;
-  font-size: 2rem;
-  color: var(--black);
-  cursor: pointer;
-}
-
-.cart-items-container .cart-item .fa-times:hover{
-  color: var(--primary-color);
-}
-
 .cart-items-container .cart-item img{
-  height: 7rem;
+  height: 10rem;
 }
 
 .cart-items-container .cart-item .content h3{
@@ -206,12 +205,17 @@ section{
   color: var(--black);
   padding-bottom: .5rem;
 }
+.cart-items-container .cart-item .content h4{
+  font-size: 1.6rem;
+  color: var(--primary-color);
+  font-style: italic;
+}
 
 .cart-items-container .cart-item .content .price{
   font-size: 1.5rem;
   color: var(--primary-color);
   text-align: center;
-  border: 2px solid #a90707;
+  border: 3px solid #a90707;
   position: relative;
   margin: 1rem;
   width: 4rem;
@@ -225,6 +229,7 @@ section{
   background-color: #fff;
   font-size: 2rem;
   font-weight: 100;
+  color: var(--primary-color);
 }
 .cart-items-container .cart-item .content button:hover{
   background-color: #a90707;
