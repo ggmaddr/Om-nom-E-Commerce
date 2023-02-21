@@ -139,16 +139,16 @@ section{
 .cart-items-container{
   position: fixed;
   top: 0; right: -105%;
-  width: 35rem;
+  width: 40rem;
   background: var(--white);
   display: flex;
   flex-flow: column;
   gap: 2rem;
-  justify-content: center;
   height: 100%;
   z-index: 1200;
   padding: 2rem;
   text-align: center;
+  padding-top: 6em;
 }
 
 .cart-items-container.active{
@@ -210,8 +210,27 @@ section{
 .cart-items-container .cart-item .content .price{
   font-size: 1.5rem;
   color: var(--primary-color);
-  text-align: left;
+  text-align: center;
+  border: 2px solid #a90707;
+  position: relative;
+  margin: 1rem;
+  width: 4rem;
+  padding: 0.2rem;
+  bottom: 0.2rem;
 }
+.cart-items-container .cart-item .content button{
+  width: 3rem;
+  height: 3rem;
+  border: 3px solid #a90707;
+  background-color: #fff;
+  font-size: 2rem;
+  font-weight: 100;
+}
+.cart-items-container .cart-item .content button:hover{
+  background-color: #a90707;
+  color:#fff4f2;
+}
+
 
 /* end */
 

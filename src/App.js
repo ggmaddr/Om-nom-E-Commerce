@@ -34,14 +34,19 @@ function App() {
     <div className="cart-items-container">
 
         <div id="close-form" className="fas fa-times" onClick={click}></div>
-        <h3 className="title">checkout</h3>
+        <h3 className="title">Your Cart</h3>
 
         <div className="cart-item">
             <span className="fas fa-times"></span>
             <img src="images/product7.png" alt=""/>
             <div className="content">
                 <h3>Custard Pudding</h3>
-                <div className="price">$6/2</div>
+                <>
+                    <button>+</button>
+                    <input className="price" type="text" />
+                    <button>-</button>
+                </>
+                
             </div>
         </div>
 
@@ -71,7 +76,6 @@ function App() {
         <Slider/>
     </div>
     
-     
     <section className="about" id="about">
 
         <h1 className="heading"> <span>about</span> us </h1>
@@ -318,7 +322,6 @@ function App() {
             </div>
 
             <form action="">
-
 
                 <div className="inputBox">
                     <input type="text" placeholder="first name"/>
