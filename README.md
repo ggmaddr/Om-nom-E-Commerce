@@ -1,4 +1,5 @@
-# Getting Started with Create React App
+# Deployment: https://github.com/ggmaddr/Om-nom-E-Commerce
+Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
