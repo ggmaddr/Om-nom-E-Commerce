@@ -95,7 +95,7 @@ function App() {
                 <h3>A <span>triple tribe </span> is all we need to achieve anything</h3>
                 <p style={{ textTransform: "none" }}>We have been our greatest family members and friends. Now, we are the greatest team!</p>
                 <p style={{ textTransform: "none" }}>Three young individuals with diverse professional backgrounds have come together to start a bakery business. Each member of the team brings unique skills and expertise to the venture.
-                "Our secret ingredient to make good dessert? My secret ingredient? Love, passion, and a whole lot of butter"</p>
+                "Our secret ingredient to make good dessert? Love, passion, and a whole lot of butter"</p>
                 <a href="https://www.a.com/" className="btn">read more</a>
             </div>
 
